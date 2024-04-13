@@ -1,0 +1,62 @@
+/* General body styles */
+body {
+    font-family: 'Georgia', serif; /* Updated to Georgia */
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0.5em 0;
+    color: #225588;
+    font-family: 'Merriweather', serif; /* Using Merriweather for headers */
+    font-weight: 700; /* Bold weight for headers */
+}
+
+header p {
+    color: #556677;
+    font-size: 1.2em;
+    font-family: 'Merriweather', serif; /* Consistent font for subheading */
+}
+
+main {
+    width: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.video-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+video {
+    width: 100%; /* Responsive video */
+    max-width: 600px; /* Limit video size */
+}
+
+footer p {
+    margin: 0;
+    color: #666;
+    font-family: 'Georgia'; /* Consistency in the footer */
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    main {
+        width: 95%;
+        padding: 10px;
+    }
+}
